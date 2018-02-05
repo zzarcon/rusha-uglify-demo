@@ -1,0 +1,21 @@
+{
+  "name": "rusha-uglify-demo",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "build:prod": "webpack -p",
+    "uglify": ""
+  },
+  "repository": "git@github.com:zzarcon/rusha-uglify-demo.git",
+  "author": "Hector Leon Zarco Garcia <hezarco@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "rusha": "^0.8.12",
+    "webpack": "^3.10.0"
+  }
+}
