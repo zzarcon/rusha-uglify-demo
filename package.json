@@ -5,7 +5,8 @@
   "scripts": {
     "build": "webpack",
     "build:prod": "webpack -p",
-    "uglify": ""
+    "uglify": "uglifyjs ./dist/bundle.js -o ./dist/rusha_uglified.js",
+    "serve": "serve"
   },
   "repository": "git@github.com:zzarcon/rusha-uglify-demo.git",
   "author": "Hector Leon Zarco Garcia <hezarco@gmail.com>",
@@ -16,6 +17,7 @@
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.1",
     "rusha": "^0.8.12",
+    "serve": "^6.4.9",
     "webpack": "^3.10.0"
   }
 }
